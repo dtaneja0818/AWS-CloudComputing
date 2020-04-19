@@ -22,11 +22,27 @@
     <tbody>
         <tr>
             <td>Web Application</td>
-            <td>NodeJS, MySQL, Sequelize ORM, Express Server, AWS-SDK, ES6</code></td>
+            <td>NodeJS, MySQL, Sequelize ORM, Express Server, Shell scripts, AWS-SDK, ES6, SQS Consumer Service</td>
         </tr>
         <tr>
             <td>Infrastructure</td>
             <td>VPC, Subnets, Routes, Load Balancer, EC2, RDS, Lambda, DynamoDB, Route53, Cloud formation</td>
+        </tr>
+         <tr>
+            <td>Metrics & Logging Service</td>
+            <td>statsD, AWS Cloud watch, Log4js, Cloud watch Alarm & System Monitoring Dashboard</td>
+        </tr>
+         <tr>
+            <td>Queue & Notification Mechanism</td>
+            <td>SQS, SNS, Lambda, SES, </td>
+        </tr>
+          <tr>
+            <td>CI/CD Pipeline</td>
+            <td>Circle CI, AWS Code Deploy, AMI Automation</td>
+        </tr>
+       <tr>
+            <td>Security</td>
+            <td>SSL/TLS , RDS Encryption</td>
         </tr>
     </tbody>
   </table>
