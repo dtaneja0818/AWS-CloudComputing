@@ -12,4 +12,4 @@
 
 **Architecture Design:**
 
-[](AWS_Architecture.png)
+![](AWS_Architecture.png)
