@@ -22,7 +22,7 @@
     <tbody>
         <tr>
             <td>Web Application</td>
-            <td>NodeJS, MySQL, Sequelize ORM, Express Server, Shell scripts, AWS-SDK, ES6, SQS Consumer Service</td>
+            <td>NodeJS, MySQL, Sequelize ORM, Express, Shell Scripts, AWS-SDK, ES6, SQS Consumer</td>
         </tr>
         <tr>
             <td>Infrastructure</td>
@@ -30,7 +30,7 @@
         </tr>
          <tr>
             <td>Metrics & Logging Service</td>
-            <td>statsD, AWS Cloud watch, Log4js, Cloud watch Alarm & System Monitoring Dashboard</td>
+            <td>statsD, AWS Cloud-Watch, Log4js, Cloud-Watch Alarm </td>
         </tr>
          <tr>
             <td>Queue & Notification Mechanism</td>
