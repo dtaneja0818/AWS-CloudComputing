@@ -22,11 +22,11 @@
     <tbody>
         <tr>
             <td>Web Application</td>
-            <td>NodeJS, MySQL, Sequelize ORM, Express, Shell Scripts, AWS-SDK, ES6, SQS Consumer</td>
+            <td>NodeJS, MySQL, Sequelize ORM, Express, Shell Scripts, AWS-SDK, ES6</td>
         </tr>
         <tr>
             <td>Infrastructure</td>
-            <td>VPC, Subnets, ELB, Auto scaling grou[, RDS, Lambda, DynamoDB, Route53, Cloud formation</td>
+            <td>VPC, ELB, ASG, RDS, Lambda, DynamoDB, Route53, Cloud formation</td>
         </tr>
          <tr>
             <td>Metrics & Logging Service</td>
