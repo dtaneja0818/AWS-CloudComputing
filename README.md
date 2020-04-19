@@ -52,7 +52,7 @@
 
 ![](AWS_Architecture.png)
 
-## Infrastructure Preparation
+## Infrastructure - Cloud Formation
 
 * created custom VPC with network setup using cloud formation template
 * Attached Load balancers, auto scaling groups, SES, SQS and SNS services
@@ -65,14 +65,14 @@
 * Created AMI template to share the image between multiple AWS accounts
 * Created golden images by adding provisioners to boostrap instances with - NPM, Code deploy and Cloud watch agaent
 
-## CI/CD Pipeline - Code Deployment
+## CI/CD Pipeline - AWS Code Deployment
 
 * Integrated Github repository with Circle-CI for continuous Integration
 * Bootstrapped circle CI container with docker image to run the test cases and generate new code artifact
 * Artifact is copied to S3 bucket and code deployement is triggered on running instances of autoscaling group
 * In-Place deployment configuration hooks are placed for routing the traffic during deployment
 
-## Logging & Alerting
+## Logging & Alerting - Cloud Watch Services
 
 * Embedded statD to collect various metrics such as counter for APIs hits and API response time etc
 * logged the info, errors and warnings using log4js and further mounted them in AWS cloud-watch for analysis
