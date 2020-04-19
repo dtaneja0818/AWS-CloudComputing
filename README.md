@@ -47,8 +47,7 @@
     </tbody>
   </table>
   
-  
-  
-**Architecture Design:**
+
+## Architecture Design
 
 ![](AWS_Architecture.png)
