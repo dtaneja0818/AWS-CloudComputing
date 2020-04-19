@@ -72,7 +72,7 @@
 * Artifact is copied to S3 bucket and code deployement is triggered on running instances of autoscaling group
 * In-Place deployment configuration hooks are placed for routing the traffic during deployment
 
-![](Code_Deployment.png)
+![](CodeDeployment.png)
 
 ## Logging & Alerting - Cloud Watch Services
 
