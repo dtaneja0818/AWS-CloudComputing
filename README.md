@@ -72,6 +72,8 @@
 * Artifact is copied to S3 bucket and code deployement is triggered on running instances of autoscaling group
 * In-Place deployment configuration hooks are placed for routing the traffic during deployment
 
+![](Code_Deployment.png)
+
 ## Logging & Alerting - Cloud Watch Services
 
 * Embedded statD to collect various metrics such as counter for APIs hits and API response time etc
@@ -87,4 +89,6 @@
 * Once message is published to SNS Topic, subscribed lambda function is trigged 
 * Lambda delivers due bills email to requesting user and saves the entry in Dynamo DB with TTL of 60 minutes
 
+![](Serverless.png)
 
+`Author: Divya Taneja`
