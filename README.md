@@ -12,4 +12,4 @@
 
 **Architecture Design:**
 
-(AWS Architecture.png)
+[Contribution guidelines for this project](AWS Architecture.png)
