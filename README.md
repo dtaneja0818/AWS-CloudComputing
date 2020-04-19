@@ -50,7 +50,7 @@
 
 ## Architecture Design
 
-![](AWS_Architecture.png)
+![](Architecture.png)
 
 ## Infrastructure - Cloud Formation
 
