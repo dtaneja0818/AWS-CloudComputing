@@ -63,4 +63,4 @@
 
 * Automated AMI creation using Hashicorp packer
 * Created AMI template to share the image between multiple AWS accounts
-* Created golden images by adding provisioners to boostrap instances with run time environment - Node, npm , Code deploy and Cloud watch agaent
+* Created golden images by adding provisioners to boostrap instances with - NPM, Code deploy and Cloud watch agaent
