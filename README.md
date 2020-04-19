@@ -51,3 +51,16 @@
 ## Architecture Design
 
 ![](AWS_Architecture.png)
+
+## Infrastructure Preparation
+
+* created custom VPC with network setup using cloud formation template
+* Attached Load balancers, auto scaling groups, SES, SQS and SNS services
+* Created necessary service roles and policies for AWS resources
+* Implemented Lambda function for emailing service 
+
+## CI/CD Pipeline - AMI 
+
+* Automated AMI creation using Hashicorp packer
+* Created AMI template to share the image between multiple AWS accounts
+* Created golden images by adding provisioners to boostrap instances with run time environment - Node, npm , Code deploy and Cloud watch agaent
