@@ -10,29 +10,23 @@
 * Bill file metadat is stored in RDS Instance itself for retrieval purpose
 * User receives his due bills email via AWS Simple email service
 
-Tools and Technologies
+**Tools and Technologies**
 
   <table>
     <thead>
       <tr>
-        <th>words</th>
-        <th>transform to</th>
-        <th>keepUpperCase is false</th>
-        <th>keepUpperCase is true</th>
+        <th>Category</th>
+        <th>AWS Services & Technologies to</th>
       </tr>
     </thead>
     <tbody>
         <tr>
-            <td>"XML HTTP request"</td>
-            <td>pascalCase</td>
-            <td><code>XmlHttpRequest</code></td>
-            <td><code>XMLHTTPRequest</code></td>
+            <td>Web Application</td>
+            <td>NodeJS, MySQL, Sequelize ORM, Express Server, AWS-SDK, ES6</code></td>
         </tr>
         <tr>
-            <td>"new customer ID"</td>
-            <td>camelCase</td>
-            <td><code>newCustomerId</code></td>
-            <td><code>newCustomerID</code></td>
+            <td>Infrastructure</td>
+            <td>VPC, Subnets, Routes, Load Balancer, EC2, RDS, Lambda, DynamoDB, Route53, Cloud formation</td>
         </tr>
     </tbody>
   </table>
