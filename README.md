@@ -2,7 +2,7 @@
 
 ## Deploying a web application on AWS-EC2
 
-Application Description
+###Application Use Cases:
 
 * Application manages Billing invoices for the customer
 * User account management and Bill records are saved in MySQL RDS Instance
