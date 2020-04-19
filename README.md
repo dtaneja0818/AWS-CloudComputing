@@ -59,8 +59,32 @@
 * Created necessary service roles and policies for AWS resources
 * Implemented Lambda function for emailing service 
 
-## CI/CD Pipeline - AMI 
+## CI/CD Pipeline - AMI - Hashicorp Packer
 
 * Automated AMI creation using Hashicorp packer
 * Created AMI template to share the image between multiple AWS accounts
 * Created golden images by adding provisioners to boostrap instances with - NPM, Code deploy and Cloud watch agaent
+
+## CI/CD Pipeline - Code Deployment
+
+* Integrated Github repository with Circle-CI for continuous Integration
+* Bootstrapped circle CI container with docker image to run the test cases and generate new code artifact
+* Artifact is copied to S3 bucket and code deployement is triggered on running instances of autoscaling group
+* In-Place deployment configuration hooks are placed for routing the traffic during deployment
+
+## Logging & Alerting
+
+* Embedded statD to collect various metrics such as counter for APIs hits and API response time etc
+* logged the info, errors and warnings using log4js and further mounted them in AWS cloud-watch for analysis
+* Implemented CPU Utilization based alarms for changing number of instances in auto scaling group
+
+## Serverless Computing - Lambda 
+
+* Implemented pub/sub mechanism with SNS and Lambda function
+* user requesting for his due bills, puts a message onto the AWS SQS service
+* SQS-Consumer in the application checks already existing entry for user in Dynamodb
+* If no email has sent already, SQS consumer process the request and puts the response in SNS 
+* Once message is published to SNS Topic, subscribed lambda function is trigged 
+* Lambda delivers due bills email to requesting user and saves the entry in Dynamo DB with TTL of 60 minutes
+
+
