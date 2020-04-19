@@ -16,7 +16,7 @@
     <thead>
       <tr>
         <th>Category</th>
-        <th>AWS Services & Technologies to</th>
+        <th>AWS Services & Technologies</th>
       </tr>
     </thead>
     <tbody>
@@ -46,6 +46,8 @@
         </tr>
     </tbody>
   </table>
+  
+  
   
 **Architecture Design:**
 
