@@ -26,7 +26,7 @@
         </tr>
         <tr>
             <td>Infrastructure</td>
-            <td>VPC, Subnets, Routes, Load Balancer, EC2, RDS, Lambda, DynamoDB, Route53, Cloud formation</td>
+            <td>VPC, Subnets, ELB, Auto scaling grou[, RDS, Lambda, DynamoDB, Route53, Cloud formation</td>
         </tr>
          <tr>
             <td>Metrics & Logging Service</td>
