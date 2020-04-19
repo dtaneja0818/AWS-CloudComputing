@@ -5,10 +5,10 @@
 **Application Use Cases:**
 
 * Application manages Billing invoices for the customer
-* User account management and Bill records are saved in MySQL RDS Instance
+* Users and Bills records are saved in MySQL RDS Instance
 * Bill related files are uploaded to Amazon S3 bucket with lifecycle policy of 30 days
-* Bill file metadat is stored in RDS Instance itself for retrieval purpose
-* User receives his due bills email via AWS Simple email service
+* Bill file metadata is stored in RDS Instance itself for retrieval purpose
+* User receives his due bills in email via AWS Simple email service
 
 **Tools and Technologies**
 
